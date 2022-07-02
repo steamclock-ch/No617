@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<title>%CLOCKTYPE% - %CLOCKNAME%</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="max-age=3600" />
+<link rel="stylesheet" href="/bootstrap.css">
+<body>
+
+<div class="container-fluid"><nav class="navbar navbar-default"><div class="container-fluid"><div class="navbar-header">
+<button type="button"class="navbar-toggle collapsed"data-toggle="collapse"data-target="#collapsemen"aria-expanded="false">
+<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+<a class="navbar-brand"href="http://www.steamclock.ch">%CLOCKNAME%</a></div>
+<div class="collapse navbar-collapse"id="collapsemen">
+<ul class="nav navbar-nav">
+<li %CLASS_HOME%>         <a href="/index.html">Home</a></li>
+<li %CLASS_DST%>          <a href="/dst.html">Daylight saving time</a></li>
+<li %CLASS_TIMEZONE%>     <a href="/timezone.html">Timezone</a></li>
+<li %CLASS_TIMEFORMAT%>   <a href="/timeformat.html">Time Format</a></li>
+<li %CLASS_ZEROBLANKING%> <a href="/zeroblanking.html">Zero Blanking</a></li>
+<li %CLASS_TUBEINTENSITY%><a href="/tubeintensity.html">Tube Intensity</a></li>
+<li %CLASS_TIMESERVER%>   <a href="/timeserver.html">Time Server</a></li>
+<li %CLASS_WIFI%>         <a href="/wifi.html">WiFI</a></li>
+<li %CLASS_SYSTEM%>          <a href="/system.html">System</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!--common end --->
+
+<!-- Jumbotron-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="h3">
+Daylight Saving Time</p>
+</div>
+<div class="panel - body">
+<p class="h4">
+Select your current Daylight Saving Time Zone<br>
+</p>
+</div>
+</div>
+<!-- end jumbotron-->
+
+<div class = "alert alert-info" role = "alert">
+Current setting is %DST_CURRENTZONE%</div>
+<div class="btn-group">
+<button class="btn btn-default">
+Select your Daylight Saving Time  Zone</button>
+<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+<span class="caret"</span>
+</button>
+<ul class="dropdown-menu">
+<li %CLASS_DST_NONE% ><a href="/dst.html?dstName=NONE"</a>No DST, use Timezone instead.</li>
+<li %CLASS_DST_EUGMT%><a href="/dst.html?dstName=EUGMT"</a>GMT</li>
+<li %CLASS_DST_EUWET%><a href="/dst.html?dstName=EUWET"</a>Western Europe</li>
+<li %CLASS_DST_EUCET%><a href="/dst.html?dstName=EUCET"</a>Center Europe</li>
+<li %CLASS_DST_EUEET%><a href="/dst.html?dstName=EUEET"</a>Eastern Europe</li>
+<li %CLASS_DST_USPT% ><a href="/dst.html?dstName=USPT"</a>US Pacific Standard</li>
+<li %CLASS_DST_USMT% ><a href="/dst.html?dstName=USMT"</a>US Mountain Standard</li>
+<li %CLASS_DST_USCT% ><a href="/dst.html?dstName=USCT"</a>US Central Standard Time</li>
+<li %CLASS_DST_AUET% ><a href="/dst.html?dstName=AUET"</a>AU Eastern Standard Time</li>
+<li %CLASS_DST_USET% ><a href="/dst.html?dstName=USET"</a>US Eastern Standard Time</li>
+</ul>
+</form>
+</div>
+<div class="panel - body">
+<img src="Time_zones_of_Europe.png" class="img-responsive" alt="Time_zones_of_Europe">
+</div>
+
+
+<!-- footer-->
+<hr>&copy; <a href="www.steamclock.ch">SteamClock</a> 2021<hr><p></p></div></div>
+<script rel="javascript" src="/jquery.js"></script>
+<script rel="javascript" src="/bootstrap.js"></script>
+</body></html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>%CLOCKTYPE% - %CLOCKNAME%</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="max-age=3600" />
+<link rel="stylesheet" href="/bootstrap.css">
+<body>
+
+<div class="container-fluid"><nav class="navbar navbar-default"><div class="container-fluid"><div class="navbar-header">
+<button type="button"class="navbar-toggle collapsed"data-toggle="collapse"data-target="#collapsemen"aria-expanded="false">
+<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+<a class="navbar-brand"href="http://www.steamclock.ch">%CLOCKNAME%</a></div>
+<div class="collapse navbar-collapse"id="collapsemen">
+<ul class="nav navbar-nav">
+<li %CLASS_HOME%>         <a href="/index.html">Home</a></li>
+<li %CLASS_DST%>          <a href="/dst.html">Daylight saving time</a></li>
+<li %CLASS_TIMEZONE%>     <a href="/timezone.html">Timezone</a></li>
+<li %CLASS_TIMEFORMAT%>   <a href="/timeformat.html">Time Format</a></li>
+<li %CLASS_ZEROBLANKING%> <a href="/zeroblanking.html">Zero Blanking</a></li>
+<li %CLASS_TUBEINTENSITY%><a href="/tubeintensity.html">Tube Intensity</a></li>
+<li %CLASS_WIFI%>         <a href="/wifi.html">WiFI</a></li>
+<li %CLASS_SYSTEM%>       <a href="/system.html">System</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!--common end --->
+
+<!-- Jumbotron-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="h3">
+Timezone Selection</p>
+</div>
+<div class="panel - body">
+<p class="h4">
+ Select your time zone to reflect the difference between GMT and your location.
+</p>
+</div>
+</div>
+<!-- end jumbotron-->
+
+<div class = "alert alert-success" role = "alert">
+Current setting is %TZ_CURRENTZONE%</div>
+<div class="btn-group">
+<button class="btn btn-default">
+Select your Time Zone</button>
+<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+<span class="caret"</span>
+</button>
+<ul class="dropdown-menu">
+<li %CLASS_TZ00%><a href="/timezone.html?tz=00"</a>None. DST settings used.</li>
+<li %CLASS_TZ01%><a href="/timezone.html?tz=01"</a>(GMT -12:00) Eniwetok</li>
+<li %CLASS_TZ02%><a href="/timezone.html?tz=02"</a>(GMT -11:00) Midway Island</li>
+<li %CLASS_TZ03%><a href="/timezone.html?tz=03"</a>(GMT -10:00) Hawaii</li>
+<li %CLASS_TZ04%><a href="/timezone.html?tz=04"</a>(GMT - 9:30) Taiohae</li>
+<li %CLASS_TZ05%><a href="/timezone.html?tz=05"</a>(GMT - 9:00) Alaska</li>
+<li %CLASS_TZ06%><a href="/timezone.html?tz=06"</a>(GMT - 8:00) Pacific Time (US & Canada</li>
+<li %CLASS_TZ07%><a href="/timezone.html?tz=07"</a>(GMT - 7:00) Mountain Time (US & Canada</li>
+<li %CLASS_TZ08%><a href="/timezone.html?tz=08"</a>(GMT - 6:00) Central Time (US & Canada)</li>
+<li %CLASS_TZ09%><a href="/timezone.html?tz=09"</a>(GMT - 5:00) Eastern Time (US & Canada)</li>
+<li %CLASS_TZ10%><a href="/timezone.html?tz=10"</a>(GMT - 4:30) Caracas</li>
+<li %CLASS_TZ11%><a href="/timezone.html?tz=11"</a>(GMT - 4:00) Atlantic Time (Canada)</li>
+<li %CLASS_TZ12%><a href="/timezone.html?tz=12"</a>(GMT - 3:30) Newfoundland</li>
+<li %CLASS_TZ13%><a href="/timezone.html?tz=13"</a>(GMT - 3:00) Brazil</li>
+<li %CLASS_TZ14%><a href="/timezone.html?tz=14"</a>(GMT - 2:00) Mid-Atlantic</li>
+<li %CLASS_TZ15%><a href="/timezone.html?tz=15"</a>(GMT - 1:00) Azores</li>
+<li class="divider"> </li>
+<li %CLASS_TZ16%><a href="/timezone.html?tz=16"</a>(GMT + 0:00) Western Europe Time</li>
+<li class="divider"> </li>
+<li %CLASS_TZ17%><a href="/timezone.html?tz=17"</a>(GMT + 1:00) Nyon, Lausanne, Paris, Brussels</li>
+<li %CLASS_TZ18%><a href="/timezone.html?tz=18"</a>(GMT + 2:00) Kaliningrad</li>
+<li %CLASS_TZ19%><a href="/timezone.html?tz=19"</a>(GMT + 3:30) Tehran</li>
+<li %CLASS_TZ20%><a href="/timezone.html?tz=20"</a>(GMT + 4:00) Abu Dhabi</li>
+<li %CLASS_TZ21%><a href="/timezone.html?tz=21"</a>(GMT + 4:30) Kabul</li>
+<li %CLASS_TZ22%><a href="/timezone.html?tz=22"</a>(GMT + 5:00) Ekaterinburg</li>
+<li %CLASS_TZ23%><a href="/timezone.html?tz=23"</a>(GMT + 5:30) Bombay</li>
+<li %CLASS_TZ24%><a href="/timezone.html?tz=24"</a>(GMT + 5:45) Kathmandu</li>
+<li %CLASS_TZ25%><a href="/timezone.html?tz=25"</a>(GMT + 6:00) Almaty</li>
+<li %CLASS_TZ26%><a href="/timezone.html?tz=26"</a>(GMT + 6:30) Yangon</li>
+<li %CLASS_TZ27%><a href="/timezone.html?tz=27"</a>(GMT + 7:00) Bangkok</li>
+<li %CLASS_TZ28%><a href="/timezone.html?tz=28"</a>(GMT + 8:00) Beijing</li>
+<li %CLASS_TZ29%><a href="/timezone.html?tz=29"</a>(GMT + 8:45) Eucla</li>
+<li %CLASS_TZ30%><a href="/timezone.html?tz=30"</a>(GMT + 9:00) Tokyo</li>
+<li %CLASS_TZ31%><a href="/timezone.html?tz=31"</a>(GMT + 9:30) Adelaide</li>
+<li %CLASS_TZ32%><a href="/timezone.html?tz=32"</a>(GMT +10:00) Eastern Australia</li>
+<li %CLASS_TZ33%><a href="/timezone.html?tz=33"</a>(GMT +10:30) Lord Howe Island</li>
+<li %CLASS_TZ34%><a href="/timezone.html?tz=34"</a>(GMT +11:00) Magadan</li>
+<li %CLASS_TZ35%><a href="/timezone.html?tz=35"</a>(GMT +11:30) Norfolk Island</li>
+<li %CLASS_TZ36%><a href="/timezone.html?tz=36"</a>(GMT +12:00) Auckland</li>
+<li %CLASS_TZ37%><a href="/timezone.html?tz=37"</a>(GMT +12:45) Chatham Islands</li>
+<li %CLASS_TZ38%><a href="/timezone.html?tz=38"</a>(GMT +13:00) Apia</li>
+<li %CLASS_TZ39%><a href="/timezone.html?tz=39"</a>(GMT +14:00) Line Islands</li>
+</ul>
+</div>
+<!-- footer-->
+<hr>&copy; <a href="www.steamclock.ch">SteamClock</a> 2020<hr><p></p></div></div>
+<script rel="javascript" src="/jquery.js"></script>
+<script rel="javascript" src="/bootstrap.js"></script>
+</body></html>

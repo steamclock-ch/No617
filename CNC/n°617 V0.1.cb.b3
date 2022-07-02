@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="n°617 V0.1">
+  <layers>
+    <layer name="617Avant" color="255,0,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <line id="1379">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-38.0461278202287,-0.0511376573763371</p>
+            <p>-37.4066635899831,-0.0511376573763371</p>
+          </pts>
+        </line>
+        <line id="1380">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-38.0461278202287,-0.0511376573763371</p>
+            <p>-38.0461278202287,0.330310424002619</p>
+          </pts>
+        </line>
+        <line id="1381">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-38.0461278202287,-0.0511376573763371</p>
+            <p>-38.0461278202287,-0.457767216006182</p>
+          </pts>
+        </line>
+        <line id="1382">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-38.0461278202287,-0.0511376573763371</p>
+            <p>-38.377567789347,-0.0511376573763371</p>
+          </pts>
+        </line>
+        <circle id="1397" c="-49.6776640247647,7.30812706434401,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1398" c="-49.6588683649637,-7.37238483517656,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1403" c="-49.6776640247647,7.30812706434401,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1404" c="-49.6588683649637,-7.37238483517656,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1434" c="49.7322140065746,7.412357090392,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1435" c="49.7442030241097,-7.26816194580869,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1436" c="49.7322140065746,7.412357090392,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1437" c="49.7442030241097,-7.26816194580869,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <pline id="1439" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="0.19859517633660162">-52.0287549324417,10.6046050802785,0</p>
+            <p b="0.061849042574545161">-52.1324183403754,-10.4561821646077,0</p>
+            <p b="0.1998547808134318">52.1737503165894,-10.4704129993307,0</p>
+            <p>52.0763871198706,10.7137580325075,0</p>
+            <p b="0.0636830321172042">52.1313994770666,10.5823699491217,0</p>
+            <p>-52.035132561796,10.589381178783,0</p>
+          </pts>
+        </pline>
+        <pline id="1440" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-46.9361278202287,-21.3236376573763,0</p>
+            <p>47.0238721797713,-21.3236376573763,0</p>
+            <p>47.0238721797713,21.5263623426236,0</p>
+            <p>-46.9361278202287,21.5263623426236,0</p>
+          </pts>
+        </pline>
+        <pline id="1441" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="0.58649610753723125">-49.9459274081168,23.6780036474557,0</p>
+            <p>-49.9561278202287,-24.4298876573763,0</p>
+            <p>-49.9658587291872,-24.4298876573763,0</p>
+            <p b="0.67719811197467894">50.0438721797713,-24.4298876573763,0</p>
+            <p>50.0438721797713,23.668350849057,0</p>
+            <p b="0.059258695797603046">50.0442163079635,23.6712425947028,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+    <layer name="617Arrière" color="255,0,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <circle id="1419" c="92.8816071615168,13.9488618587614,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1420" c="92.8816071615168,13.9488618587614,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1421" c="92.9055863022831,-14.0510966584325,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1422" c="92.9055863022831,-14.0510966584325,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1423" c="192.797455283242,13.9488618587614,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1424" c="192.797455283242,13.9488618587614,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1425" c="192.773476142476,-14.0510966584325,0" d="4">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="1426" c="192.773476142476,-14.0510966584325,0" d="3.2">
+          <ModificationCount>57</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <pline id="1442" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="0.50603150351239234">95.8542469894358,21.9796873366754,0</p>
+            <p>96.3855392358698,-22.4298881412386,0</p>
+            <p b="0.50592983278518155">189.277246383133,-22.4298881412385,0</p>
+            <p>189.837142356577,21.9740496898519,0</p>
+            <p b="0.056718609805528016">189.841474927448,21.973556366693,0</p>
+            <p>95.8540450920232,21.9796643734192,0</p>
+          </pts>
+        </pline>
+        <pline id="1443" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>92.8243277176846,-24.4298881412386,0</p>
+            <p b="0.67719811197467394">192.834058626643,-24.4298881412385,0</p>
+            <p>192.834058626643,23.6683503651946,0</p>
+            <p b="0.059258695797601325">192.834402754835,23.6712421108404,0</p>
+            <p b="0.58649610753722081">92.8442590387545,23.6780031635932,0</p>
+            <p>92.8340586266426,-24.4298881412384,0</p>
+          </pts>
+        </pline>
+        <pline id="1444" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>95.8540586266431,-21.3236381412386,0</p>
+            <p>189.814058626643,-21.3236381412386,0</p>
+            <p>189.814058626643,21.5263618587614,0</p>
+            <p>95.8540586266431,21.5263618587614,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+  </MachiningOptions>
+  <parts />
+  <ActiveLayer>617Avant</ActiveLayer>
+</CADFile>

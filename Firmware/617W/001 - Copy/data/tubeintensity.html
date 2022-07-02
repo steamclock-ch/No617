@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>%CLOCKTYPE% - %CLOCKNAME%</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="max-age=3600" />
+<link rel="stylesheet" href="/bootstrap.css">
+<body>
+
+<div class="container-fluid"><nav class="navbar navbar-default"><div class="container-fluid"><div class="navbar-header">
+<button type="button"class="navbar-toggle collapsed"data-toggle="collapse"data-target="#collapsemen"aria-expanded="false">
+<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+<a class="navbar-brand"href="http://www.steamclock.ch">%CLOCKNAME%</a></div>
+<div class="collapse navbar-collapse"id="collapsemen">
+<ul class="nav navbar-nav">
+<li %CLASS_HOME%>         <a href="/index.html">Home</a></li>
+<li %CLASS_DST%>          <a href="/dst.html">Daylight saving time</a></li>
+<li %CLASS_TIMEZONE%>     <a href="/timezone.html">Timezone</a></li>
+<li %CLASS_TIMEFORMAT%>   <a href="/timeformat.html">Time Format</a></li>
+<li %CLASS_ZEROBLANKING%> <a href="/zeroblanking.html">Zero Blanking</a></li>
+<li %CLASS_TUBEINTENSITY%><a href="/tubeintensity.html">Tube Intensity</a></li>
+<li %CLASS_TIMESERVER%>   <a href="/timeserver.html">Time Server</a></li>
+<li %CLASS_WIFI%>         <a href="/wifi.html">WiFI</a></li>
+<li %CLASS_SYSTEM%>       <a href="/system.html">System</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!--common end --->
+
+<!-- Jumbotron-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="h3">
+Tube intensity</p>
+</div>
+<div class="panel - body">
+<p class="h4">
+</p>
+Manage the brightness of the tubes to suits your needs <br>
+</div>
+</div>
+<!-- end jumbotron-->
+
+<div class="panel-group panel-info">
+ <div class="panel panel-info">
+<div class="panel-heading">
+Let the clock manage tube's luminosity by setting 'Automatic' or set it manually.</div>
+<div class="panel-body">
+<div class = "dropdown">
+<button class = "btn btn-primary dropdown-toggle" type = "button" data-toggle="dropdown">
+Change settings<span class = "caret">
+</span>
+</button>
+<ul class = "dropdown-menu">
+<li %CLASS_TI0%><a href="/tubeintensity.html?intensity=0">Automatic</a></li>
+<li %CLASS_TI1%><a href="/tubeintensity.html?intensity=1">Minimum Light</a></li>
+<li %CLASS_TI2%><a href="/tubeintensity.html?intensity=2">2 on 9</a></li>
+<li %CLASS_TI3%><a href="/tubeintensity.html?intensity=3">3 on 9</a></li>
+<li %CLASS_TI4%><a href="/tubeintensity.html?intensity=4">4 on 9</a></li>
+<li %CLASS_TI5%><a href="/tubeintensity.html?intensity=5">5 on 9</a></li>
+<li %CLASS_TI6%><a href="/tubeintensity.html?intensity=6">6 on 9</a></li>
+<li %CLASS_TI7%><a href="/tubeintensity.html?intensity=7">7 on 9</a></li>
+<li %CLASS_TI8%><a href="/tubeintensity.html?intensity=8">8 on 9</a></li>
+<li %CLASS_TI9%><a href="/tubeintensity.html?intensity=9">Full Light</a></li>
+</ul>
+</div>
+&nbsp; Current setting is %TI_VALUE%<br>
+</div>
+</div>
+
+<br<div class="panel panel-info">
+<div class="panel-heading">
+Hide seconds on low brightness ? </div>
+<div class="panel-body">
+<div class="dropdown">
+<button class = "btn btn-primary dropdown-toggle" type = "button" data-toggle="dropdown">
+Change settings<span class = "caret">
+</span>
+</button>
+<ul class = "dropdown-menu">
+<li %CLASS_BO1%><a href="/tubeintensity.html?bol=1">Hide seconds on low brightness</a></li>
+<li %CLASS_BO0%><a href="/tubeintensity.html?bol=0">Display seconds on low brightness </a></li>
+</ul>
+</div>
+%BO_VALUE%</div>
+</div>
+</div>
+
+<!-- footer-->
+<hr>&copy; <a href="www.steamclock.ch">SteamClock</a> 2020<hr><p></p></div></div>
+<script rel="javascript" src="/jquery.js"></script>
+<script rel="javascript" src="/bootstrap.js"></script>
+</body></html>

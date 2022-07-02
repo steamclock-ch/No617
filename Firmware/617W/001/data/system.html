@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<title>%CLOCKTYPE%</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="Cache-Control" content="max-age=3600" />
+	<link rel="stylesheet" href="/bootstrap.css">
+	
+	<body>
+		<div class="container-fluid" >
+
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button"class="navbar-toggle collapsed"data-toggle="collapse"data-target="#collapsemen"aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+						<a class="navbar-brand"href="http://www.steamclock.ch">%CLOCKTYPE%</a>
+					</div>
+					<div class="collapse navbar-collapse"id="collapsemen">
+						<ul class="nav navbar-nav">
+						<li %CLASS_HOME%>         <a href="/index.html">Home</a></li>
+						<li %CLASS_DST%>          <a href="/dst.html">Daylight saving time</a></li>
+						<li %CLASS_TIMEZONE%>     <a href="/timezone.html">Timezone</a></li>
+						<li %CLASS_TIMEFORMAT%>   <a href="/timeformat.html">Time Format</a></li>
+						<li %CLASS_ZEROBLANKING%> <a href="/zeroblanking.html">Zero Blanking</a></li>
+						<li %CLASS_TUBEINTENSITY%><a href="/tubeintensity.html">Tube Intensity</a></li>
+						<li %CLASS_TIMESERVER%>   <a href="/timeserver.html">Time Server</a></li>
+						<li %CLASS_WIFI%>         <a href="/wifi.html">WiFI</a></li>
+						<li %CLASS_system%>          <a href="/system.html">System</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- common end -->
+
+			<!-- https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp -->
+	
+			
+		<form action="/system.html" method ="post">
+		<div class="panel panel-default m-5">
+			<div class="panel-heading"><p class="h3">System's settings</p></div>
+			<div class="panel-group p-5">
+				
+				<div class="panel panel-default m-5">
+					<div class="panel-body m-5">Clock's name</div>
+					<div class="m-5 bg-snow">
+						<input type="text" class="form-control" name="clocksName" aria-describedby="emailHelp" placeholder="Enter clock's name">
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-body">Network Time Server </div>
+					<div class="form-group">
+						<input type="text" class="form-control" name="NTPServer" aria-describedby="emailHelp" placeholder="Enter NTP server to use">
+					</div>
+				</div>
+				
+				<div class="panel panel-default">				
+					<div class="panel-body">Reset</div>
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" name="reset">
+							<label class="form-check-label" for="gridCheck">Reset</label>
+						</div>
+						<input type="text" class="form-control" name="factoryReset" aria-describedby="emailHelp" placeholder="Factory Reset">
+					</div>		
+				</div>
+		 
+				<div class="panel panel-default">				
+					<div class="panel-body">Check for Update</div>
+					<div class="form-group">
+					<div class="form-check">
+							<input class="form-check-input" type="checkbox" name="update">
+							<label class="form-check-label" for="gridCheck">Update</label>
+						</div>
+						 <button type="submit" name"checkUpdate" class="btn btn-primary">Submit</button> 					
+					</div>		
+				</div>
+	 
+				<button type="submit" class="btn btn-primary">Submit</button>  
+
+			</div>
+		</div>
+	</form> 
+			<!-- -->
+			<div class="panel-footer">&copy; <a href="www.steamclock.ch">SteamClock</a> 2021</div>
+		</div>
+		<script rel="javascript" src="/jquery.js"></script>
+		<script rel="javascript" src="/bootstrap.js"></script>
+	</body>
+</html>

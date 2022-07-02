@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+		<title>%CLOCKTYPE% - %CLOCKNAME%</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="Cache-Control" content="max-age=3600" />
+		<link rel="stylesheet" href="/bootstrap.css">
+  <body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid"><div class="navbar-header">
+					<button type="button"class="navbar-toggle collapsed"data-toggle="collapse"data-target="#collapsemen"aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+					<a class="navbar-brand"href="http://www.steamclock.ch">%CLOCKNAME%</a></div>
+					<div class="collapse navbar-collapse"id="collapsemen">
+						<ul class="nav navbar-nav">
+							<li %CLASS_HOME%>         <a href="/index.html">Home</a></li>
+							<li %CLASS_DST%>          <a href="/dst.html">Daylight saving time</a></li>
+							<li %CLASS_TIMEZONE%>     <a href="/timezone.html">Timezone</a></li>
+							<li %CLASS_TIMEFORMAT%>   <a href="/timeformat.html">Time Format</a></li>
+							<li %CLASS_ZEROBLANKING%> <a href="/zeroblanking.html">Zero Blanking</a></li>
+							<li %CLASS_TUBEINTENSITY%><a href="/tubeintensity.html">Tube Intensity</a></li>
+							<li %CLASS_TIMESERVER%>   <a href="/timeserver.html">Time Server</a></li>
+							<li %CLASS_WIFI%>         <a href="/wifi.html">WiFI</a></li>
+							<li %CLASS_SYSTEM%>       <a href="/system.html">System</a></li>
+						</ul>
+				</div>
+				</div>
+			</nav>
+			<!--common end --->
+
+			<div class="panel panel-info"><div class="panel-heading">Info %CLOCKNAME%</div>
+			<div class="panel-body">
+				<ul class="list-group">
+					<li class="list-group-item"><b>Firmware %FW%</b></li>
+					<li class="list-group-item"><a href="/dst.html">Daylight saving time</a> is set as %DST%.</li>
+					<li class="list-group-item"><a href="/timezone.html">Time Zone</a> is : %TZ%</li>
+					<li class="list-group-item"><a href="/timeformat.html">Time format</a> is set as %TF% format.</li>
+					<li class="list-group-item"><a href="/zeroblanking.html">Hours Leading Zero</a> is %ZB% displayed.</li>
+					<li class="list-group-item"><a href="/tubeintensity.html">Tube intensity</a> is set as %TI%.</li>
+					<li class="list-group-item"><a href="/zeroblanking.html">Seconds </a> are %BS%</b> on low luminosity.</li> 
+					<li class="list-group-item"><a href="/timeserver.html">Time Server </a> name is "%TS%".</li>
+					<li class="list-group-item"><a href="/wifi.html">WiFi</a> SSID name is "%WI%".</li>
+				</ul>
+			</div>
+			<!-- footer-->
+			<hr>&copy; <a href="www.steamclock.ch">SteamClock</a> 2020<hr><p></p>
+		</div>
+
+		<script rel="javascript" src="/jquery.js"></script>
+		<script rel="javascript" src="/bootstrap.js"></script>
+</body>
+</html>

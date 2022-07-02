@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>SteamClock Portal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="max-age=3600" />
+<link rel="stylesheet" href="/bootstrap.css">
+<body>
+
+<div class="container-fluid" >
+
+<!-- common end -->
+
+
+<div class="panel panel-success">
+  <div class="panel-heading"><p class="h3">WiFi </p></div>
+  <div class="panel-body"><p class="h4">WiFi Selection<br></p>
+<!-- -->
+ <form action="/portal.html" method ="post">
+    <div class="form-group row">
+      <div class="col-sm-4" style="background-color:Snow;">
+        SSID Around us
+      </div>
+      <div class="col-sm-4" style="background-color:Snow;">Enter password and click Select to connect Wifi Network</div>
+    </div>
+    %CLASS_WIFILIST%
+    <button type="submit" class="btn btn-primary">Submit</button>  
+  </form> 
+<!-- -->
+   </div>
+  <div class="panel-footer">&copy; <a href="www.steamclock.ch">SteamClock</a> 2020</div>
+</div>
+
+
+
+
+</div>
+<script rel="javascript" src="/jquery.js"></script>
+<script rel="javascript" src="/bootstrap.js"></script>
+</body></html>
